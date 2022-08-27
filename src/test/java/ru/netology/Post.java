@@ -22,7 +22,7 @@ public class Post {
                 .body("data", equalTo("test post"));
     }
 
-    /*@Test
+    @Test
     void postBodyFail() {
         // Given - When - Then
         // Предусловия
@@ -36,5 +36,5 @@ public class Post {
                 .then()
                 .statusCode(200)
                 .body("data", equalTo("test post1"));
-    }*/
+    }
 }
